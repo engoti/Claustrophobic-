@@ -13,10 +13,13 @@ my_list.insert(1, 15)
 #Creating another List
 another_list=[50, 60, 70]
 
+#Using .extend method
 my_list.extend(another_list)
 
+#.remove (removing an item from a list)
 my_list.remove(70)
 
+#.sort (Sort in ascending Order)
 my_list.sort()
 
 print(my_list[3])
