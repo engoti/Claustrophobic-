@@ -16,5 +16,4 @@ def main():
     else:
         print("No discount applied. Original price: ${:.2f}".format(original_price))
 
-if __name__ == "__main__":
-    main()
+main()
