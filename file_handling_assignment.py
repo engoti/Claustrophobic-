@@ -3,7 +3,7 @@ try:
 
     file.write("Hello, My name is Engel,\n")
     file.write("I am 22 Years Old\n")
-    file.write("I Live in Kisumu")
+    file.write("I Live in Kisumu\n")
 
     file.close()
 
@@ -18,7 +18,7 @@ try:
     file = open("my_file.txt", "a")
     file.write("My Hobby is Swimming\n")
     file.write("I have a keen interest in Technology too\n")
-    file.write("As a relentless seeker of knowledge, I am always seeking to improve my consciousness on a day-to-day basis")
+    file.write("As a relentless seeker of knowledge, I am always seeking to improve my consciousness on a day-to-day basis\n")
 
     file.close()
 
