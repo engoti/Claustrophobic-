@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Interface with Dynamic Aspect Ratio and Styled Cursor Effect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="matrix-background"></canvas>
+    <div class="slide-container">
+        <div class="slide active">
+            <div class="slide-content">
+                <img src="img/Portfolio.JPG" alt="Slide 1">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="img/GRAMIES.JPG" alt="Slide 2">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="img/ease.JPG" alt="Slide 3">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="img/EDUCATION.JPG" alt="Slide 4">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="img/fast.JPG" alt="Slide 5">
+            </div>
+        </div>
+        <div class="arrow arrow-left">&#8249;</div>
+        <div class="arrow arrow-right">&#8250;</div>
+    </div>
+    <canvas id="cursor-canvas"></canvas>
+
+    <script src="matrix-background.js"></script>
+    <script type="module" src="cursor.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
